@@ -1,0 +1,129 @@
+{
+    ":items": {},
+    ":itemsOrder": [],
+    ":hierarchyType": "page",
+    ":path": "/content/wknd-events/react",
+    ":children": {
+        "/content/wknd-events/react/home": {
+            ":items": {
+                "root": {
+                    "allowedComponents": {
+                        "applicable": false,
+                        "components": [
+                            {
+                            "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                            "title": "Layout Container"
+                            },
+                            {
+                            "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/image",
+                            "title": "Image"
+                            },
+                            {
+                            "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/list",
+                            "title": "List"
+                            },
+                            {
+                            "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/text",
+                            "title": "Text"
+                            }
+                        ]
+                    },
+                    "columnClassNames": {
+                        "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnCount": 12,
+                    ":items": {
+                    "responsivegrid": {
+                    "allowedComponents": {
+                        "applicable": false,
+                        "components": [
+                            {
+                            "path": "/content/wknd-events/react/home/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                            "title": "Layout Container"
+                            },
+                            {
+                            "path": "/content/wknd-events/react/home/jcr:content/root/responsivegrid/wknd-events/components/content/image",
+                            "title": "Image"
+                            },
+                            {
+                            "path": "/content/wknd-events/react/home/jcr:content/root/responsivegrid/wknd-events/components/content/list",
+                            "title": "List"
+                            },
+                            {
+                            "path": "/content/wknd-events/react/home/jcr:content/root/responsivegrid/wknd-events/components/content/text",
+                            "title": "Text"
+                            }
+                            ]
+                    },
+                    "columnClassNames": {
+                    "image": "aem-GridColumn aem-GridColumn--default--12",
+                    "text": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnCount": 12,
+                    ":items": {
+                        "text": {
+                            "text": "<h1>Mock JSON makes me a SAD bear...</h1>\r\n",
+                            "richText": true,
+                            ":type": "wknd-events/components/content/text"
+                        },
+                        "image": {
+                            "title": "This is a caption",
+                            "src": "/images/mock-image.jpeg",
+                            "srcUriTemplate": "/content/wknd-events/react/home/_jcr_content/root/responsivegrid/image.coreimg{.width}.png/1582227909660/we-retail-instore-logo.png",
+                            "areas": [],
+                            "uuid": "5a4e8461-3b54-46e6-85a4-aa235743ecdd",
+                            "lazyEnabled": false,
+                            "widths": [],
+                            ":type": "wknd-events/components/content/image"
+                        },
+                        "list": {
+                            "dateFormatString": "yyyy-MM-dd",
+                            "items": [
+                                {
+                                    "url": "/content/wknd-events/react/home/first-article.html",
+                                    "path": "/content/wknd-events/react/home/first-article",
+                                    "description": null,
+                                    "title": "First Article",
+                                    "lastModified": 1539529744910
+                                },
+                                {
+                                    "url": "/content/wknd-events/react/home/second-article.html",
+                                    "path": "/content/wknd-events/react/home/second-article",
+                                    "description": null,
+                                    "title": "Second Article",
+                                    "lastModified": 1539532397436
+                                }
+                            ],
+                            "showDescription": false,
+                            "showModificationDate": false,
+                            "linkItems": false,
+                            ":type": "wknd-events/components/content/list"
+                        }
+                    },
+                    ":itemsOrder": [
+                    "text",
+                    "image"
+                    ],
+                    ":type": "wcm/foundation/components/responsivegrid"
+                    }
+                    },
+                    ":itemsOrder": [
+                    "responsivegrid"
+                    ],
+                    ":type": "wcm/foundation/components/responsivegrid"
+                }
+            },
+            ":itemsOrder": [
+            "root"
+            ],
+            ":hierarchyType": "page",
+            ":path": "/content/wknd-events/react/home",
+            "title": "Home",
+            ":type": "wknd-events/components/structure/page"
+        }
+    },
+    "title": "React App",
+    ":type": "wknd-events/components/structure/app"
+}
